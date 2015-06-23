@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-sso-anvil-connect",
+  "version": "0.0.1",
+  "description": "Anvil Connect plugin for NodeBB.",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvilresearch/nodebb-plugin-sso-anvil-connect.git"
+  },
+  "keywords": [
+    "nodebb",
+    "bb",
+    "anvil",
+    "connect",
+    "sso",
+    "passport",
+    "auth",
+    "oauth",
+    "openid",
+    "connect",
+    "oauth2"
+  ],
+  "author": "&! (bitandbang)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anvilresearch/nodebb-plugin-sso-anvil-connect/issues"
+  },
+  "homepage": "https://github.com/anvilresearch/nodebb-plugin-sso-anvil-connect#readme"
+}

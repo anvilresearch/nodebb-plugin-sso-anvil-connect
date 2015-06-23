@@ -1,0 +1,19 @@
+{
+	"id": "nodebb-plugin-sso-anvil-connect",
+	"name": "NodeBB + Anvil Connect SSO",
+	"description": "NodeBB Plugin that allows users to login/register through Anvil Connect.",
+	"url": "https://github.com/anvilresearch/nodebb-plugin-sso-anvil-connect",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:auth.init", "method": "getStrategy"
+		},
+		{
+			"hook": "filter:admin.header.build", "method": "addMenuItem"
+		},
+		{
+			"hook": "action:app.load", "method": "init"
+		}
+	],
+	"templates": "./templates"
+}
